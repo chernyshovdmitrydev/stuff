@@ -14,20 +14,20 @@ const Footer = () => {
         </Link>
       </div>
       <div className={styles.rights}>
-        Developed by <a href="https://github.com/chernyshovdmitrydev" target="noreferrer">chernyshovdmitrydev</a> 
+        Developed by <a href="https://github.com/chernyshovdmitrydev" target="_blank">chernyshovdmitrydev</a> 
       </div>
       <div className={styles.socials}>
-        <a href="https://instagram.com" target="noreferrer">
+        <a href="https://instagram.com" target="_blank">
           <svg className="icon">
             <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#instagram`} />
           </svg>
         </a>
-        <a href="https://facebook.com" target="noreferrer">
+        <a href="https://facebook.com" target="_blank">
           <svg className="icon">
             <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#facebook`} />
           </svg>
         </a>
-        <a href="https://youtube.com" target="noreferrer">
+        <a href="https://youtube.com" target="_blank">
           <svg className="icon">
             <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#youtube`} />
           </svg>

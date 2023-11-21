@@ -20,7 +20,7 @@ const Sidebar = () => {
         </ul>
       </nav>
       <div className={styles.footer}>
-        <a href="/help" target="_blank" className={styles.link}>
+        <a href="#" target="_blank" className={styles.link}>
           Help
         </a>
         <a
